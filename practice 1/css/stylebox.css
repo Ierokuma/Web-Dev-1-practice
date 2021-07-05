@@ -1,0 +1,27 @@
+header{
+	background: salmon;
+	height:  70pt;
+	font-weight: bold;
+}
+footer{
+	background: lavender;
+	padding: 15px;
+}
+.flex{
+	display: flex;
+}
+.left{
+	background: lightpink;
+	min-height: 300px;
+}
+.content{
+	background: yellow;
+	flex: 1;
+	min-height: 300px;
+	font-weight: bold;
+}
+.right{
+	background: cyan;
+	width: 100pt;
+	min-height: 300px;
+}
